@@ -8,6 +8,7 @@ const Promo = () => {
 				<div className="promo__content">
 					<div className="promo__text">
 						<div className="promo__title">
+							{/* чтобы    не уходил под фон, добавми еще спан(поднимем наверх текст через позишн релатив) */}
 							<span class="highlight">
 								<span>LET’S</span>
 							</span>

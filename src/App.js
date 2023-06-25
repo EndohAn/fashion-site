@@ -1,7 +1,8 @@
-import Arrivals from './components/arrivals/Arrivals';
-import Brands from './components/brands/Brands';
 import Header from './components/header/Header'
 import Promo from './components/promo/Promo';
+import Brands from './components/brands/Brands';
+import Arrivals from './components/arrivals/Arrivals';
+import Banner from './components/banner/Banner';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Promo />
       <Brands /> 
       <Arrivals />
+      <Banner /> 
 		</div>
   );
 }

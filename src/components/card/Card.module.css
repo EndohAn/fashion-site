@@ -2,9 +2,10 @@
 	position: relative;
 	/* cursor: pointer; */
 }
-
+/* можно было бы просто оставить opacity */
 .card:hover .card__img {
 	animation: opacity 0.2s ease-in-out;
+	/* opacity:0.8; */
 }
 
 @keyframes opacity {
